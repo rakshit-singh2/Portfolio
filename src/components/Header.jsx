@@ -62,7 +62,7 @@ const Header = () => {
                 ))}
             </List>
             <ListItem>
-                <Typography variant="body1">{darkMode?'Light Mode':'Dark Mode'}</Typography>
+                <Typography variant="body1">{darkMode ? 'Light Mode' : 'Dark Mode'}</Typography>
                 <Switch checked={darkMode} onChange={toggleTheme} />
             </ListItem>
         </Box>
@@ -74,7 +74,7 @@ const Header = () => {
 
                 <Typography variant="h6">
                     <NavLink to="/" style={linkStyle}>
-                        Portfolio
+                        <img src={darkMode ?"#":"#"} alt="Logo" style={{ width: '100px', height: 'auto' }} />
                     </NavLink>
                 </Typography>
 
@@ -118,7 +118,7 @@ const Header = () => {
                         }}
                     >
                         <Switch checked={darkMode} onChange={toggleTheme} />
-                        <Typography variant="body1">{darkMode?'Light Mode':'Dark Mode'}</Typography>
+                        <Typography variant="body1">{darkMode ? 'Light Mode' : 'Dark Mode'}</Typography>
                     </Box>
 
 

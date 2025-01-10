@@ -1,6 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Router from "./routes";
+import Router from "./routes/routes";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import { Box } from '@mui/material';
@@ -16,7 +15,7 @@ const App = () => {
     >
       <Header />
       <Box component="main" sx={{ flexGrow: 1, p: 2 }}>
-        {Router}
+        <Router />
       </Box>
       <Footer />
     </Box>

@@ -10,7 +10,6 @@ const Contact = () => {
       <form
         action="https://formsubmit.co/f0fa9848164c196456b945cae75bbd82"
         method="POST"
-        target="_blank"
       >
         <Stack spacing={2}>
           <Stack direction="row" spacing={2}>
